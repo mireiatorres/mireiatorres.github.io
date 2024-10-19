@@ -80,7 +80,8 @@
         <div class="card">
           <div class="card-header">Descrição do Serviço </div>
           <div class="card-body">
-            <table class="table border-0">
+            <!-- Tabela para telas grandes -->        
+            <table class="table border-0 d-none d-md-table" id="large-table">
               <thead class="table">
                 <tr>
                   <th>Data de Início</th>
@@ -106,6 +107,40 @@
                   <td>R$ 850,00</td>
                 </tr>
               </tbody>
+            </table>
+            <!-- Tabela para telas menores -->
+            <table class="table border-0 d-md-none" id="small-table">
+              <tr>
+                <th>Data de Início</th>
+                <td>15/09/2024</td>
+              </tr>
+              <tr>
+                <th>Data de Término</th>
+                <td>16/09/2024</td>
+              </tr>
+              <tr>
+                <th>Peças Substituídas</th>
+                <td>
+                  <ul>
+                    <p>Filtro de óleo</p>
+                    <p>Velas de ignição</p>
+                    <p>Correia dentada</p>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Peças Reformadas</th>
+                <td>
+                  <ul>
+                    <p>Freios</p>
+                    <p>Suspensão</p>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Custo Total</th>
+                <td>R$ 850,00</td>
+              </tr>
             </table>
           </div>
         </div>
@@ -138,7 +173,7 @@
       </div>
     
       <!-- Coluna para o botão de selecionar outra OS -->
-      <div class="col-md-6 d-flex align-items-end">
+      <div class="col-md-6 d-flex align-items-end" id="button_outra_os">
         <a class="btn btn-secondary btn-md" href="#" role="button">Selecionar Outra OS</a>
       </div>
     </div>
