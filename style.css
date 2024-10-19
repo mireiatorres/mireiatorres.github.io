@@ -2,7 +2,7 @@
 /* Geral tela */
 body{
     background-color: #f0efef;
-    background-image: url(/servico_realz_cliente/imgs/solutionsfundo.jpg);
+    background-image: url(imgs/solutionsfundo.jpg);
 }
 /* Main */
 .container.mt-5 {
