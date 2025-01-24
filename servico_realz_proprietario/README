@@ -1,0 +1,35 @@
+# Sistema de Gerenciamento de Oficina Mecânica - Interface do Proprietário
+
+Este projeto consiste em uma interface desenvolvida para o proprietário de uma oficina mecânica. O sistema permite a gestão centralizada de ordens de serviço, fornecendo informações detalhadas sobre os serviços realizados, peças substituídas e custos associados. A interface foi construída com o framework **Bootstrap**, garantindo um design responsivo e adequado para diferentes dispositivos.
+
+## Funcionalidades
+
+- **Gestão de Clientes e Veículos**: Permite listar clientes e os veículos associados a cada um.
+- **Gerenciamento de Ordens de Serviço**: Exibe informações detalhadas, incluindo:
+  - Descrição dos serviços realizados.
+  - Peças substituídas e reformadas.
+  - Custos totais.
+  - Datas de início e término dos serviços.
+- **Interface Responsiva**: Design adaptado para dispositivos móveis e desktops.
+- **Simulação de Armazenamento Local**: Os dados são armazenados e recuperados do `localStorage`, simulando um banco de dados local no navegador.
+
+## Tecnologias Utilizadas
+
+1. **HTML, CSS e JavaScript**: Estrutura, estilização e interatividade da aplicação.
+2. **Bootstrap**: Framework utilizado para a construção de componentes reutilizáveis e responsivos, como menus suspensos e tabelas.
+3. **LocalStorage**: Armazenamento e manipulação de dados de forma local no navegador.
+
+## Acessando a Interface
+
+A aplicação está disponível publicamente através do GitHub Pages. Para acessar a interface, utilize o link abaixo:
+
+[**Acesse a aplicação aqui**](#) *(Insira o link do GitHub Pages)*
+
+## Observações Adicionais
+
+- Este sistema utiliza dados simulados armazenados localmente no navegador. As informações não são persistidas após a exclusão do cache ou reinício do navegador.
+- Este projeto pode ser expandido para integrar-se a um backend ou a um banco de dados real.
+
+### Considerações Finais
+
+Este sistema foi projetado como uma ferramenta de apoio para oficinas mecânicas, com o objetivo de facilitar a organização de clientes e serviços realizados. Recomenda-se expandir suas funcionalidades para atender necessidades específicas de cada oficina.
