@@ -1,0 +1,110 @@
+/* Geral tela */
+body {
+    background-image: url(img/solutionsfundo.jpg);
+  }
+  
+  /* Main */
+  .container.mt-5 {
+    font-family: "Inter", sans-serif;
+    padding-bottom: 40px
+  }
+  
+  /* Título da página */
+  h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
+  }
+  
+  /* Texto orientativo */
+  .text-muted {
+    font-weight: initial;
+    font-size: 20px;
+  }
+  
+  /* Título da seção */
+  h3 {
+    font-weight: bold;
+    font-size: 26px;
+  }
+  
+  #clientSelect{
+    font-size: 17.5px;
+  }
+  
+  #osList{
+    font-size: 17.5px;
+  }
+  
+  /* Card */
+  #osForm .card-header {
+    padding: 0.5rem 0.98rem;
+    background-color: #fffafa;
+  }
+  
+  .card {
+    background-color: #fffafa;
+    padding: 0.9rem 1.0rem;
+    font-size: 18px;
+  }
+  
+  /* Formulário */
+  :placeholder-shown{
+    font-size: 15px;
+    }
+  
+    .no-placeholder::placeholder {
+      color: transparent;
+    }
+  
+    #osForm .card-body label[for="osNumber"]{
+      margin-top: 10px;
+    }
+  
+    #osForm .card-body .form-label{
+      font-weight:550;
+    }
+  
+    #osForm .card-body button {
+      margin-top: 10px;
+      margin-right: 8px;
+    }
+  
+    /* Telas menores - tablet*/
+  @media screen and (max-width: 800px) {
+    h1 {
+      font-size: 36px;
+    }
+  
+    .text-muted {
+      font-size: 16px;
+    }
+  }
+  
+  /* Telas menores - cell*/
+  @media screen and (max-width: 450px) {
+    h1 {
+      font-size: 25px;
+    }
+  
+    .text-muted {
+      font-size: 14px;
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 22px;
+    }
+    
+    #clientSelect{
+      font-size: 15px;
+    }
+    
+    #osList{
+      font-size: 15px;
+    }
+  
+    .card {
+      font-size: 16px;
+    }
+    
+  }
