@@ -69,16 +69,3 @@ Uma interface adicional que permite ao proprietário visualizar detalhadamente o
 ## Considerações Finais
 
 Estes projetos foram criados com o objetivo de demonstrar a aplicação de conceitos essenciais em desenvolvimento front-end, incluindo interatividade, persistência de dados e design responsivo. Eles podem ser usados como base para sistemas mais complexos ou para aprendizado e aprimoramento de habilidades em desenvolvimento web.
-
-
-
-
-
-
-
-
-
-
-
-
-O ChatGPT pode cometer erros. Consid
