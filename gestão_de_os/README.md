@@ -38,4 +38,4 @@ A interface é construída com HTML, CSS e o framework Bootstrap, garantindo res
 ## Link de Acesso
 
 Acesse a tela diretamente via GitHub Pages no link:  
-[**Sistema de Gerenciamento de Oficina**](https://mireiatorres.github.io/gest%C3%A3o_de_os/>)
+[**Sistema de Gerenciamento de Oficina**](https://mireiatorres.github.io/gest%C3%A3o_de_os/)
