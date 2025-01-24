@@ -39,4 +39,4 @@ O jogo é construído em torno de algumas funções principais:
 4. Após acertar, você pode reiniciar o jogo.
 
 ## Acesso
-Você pode jogar o "Jogo do Número Secreto" acessando [aqui](https://seu-usuario.github.io/nome-do-repositorio).
+Você pode jogar o "Jogo do Número Secreto" acessando [aqui](https://mireiatorres.github.io/jogo_numero_secreto/).
