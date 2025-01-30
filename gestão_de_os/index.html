@@ -1,225 +1,193 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gestão De OS</title>
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Montserrat:ital@0;1&family=Syne:wght@700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-container">
-        <div class="logo">
-          <img src="img/logo.png" alt="Logo" />
-        </div>
 
-        <div class="user-options">
-          <a href="../cadastro_Login/Cad_prop.html" class="user-option">
-            <i>👤</i>
-            <span>Login</span>
-          </a>
-          <a href="../Perfil_Proprietario/index.html" class="user-option">
-            <i>⚙️</i>
-            <span>Configurações</span>
-          </a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestão De OS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Montserrat:ital@0;1&family=Syne:wght@700&display=swap"
+    rel="stylesheet" />
+</head>
 
-        <button class="mobile-menu-btn">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </button>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo" />
       </div>
-    </header>
-    <nav class="main-nav">
-      <div class="nav-container">
-        <div class="nav-menu">
-          <ul class="nav-links">
-            <li>
-              <a href="../homepage-proprietario/index.html" class="nav-link"
-                >Página Inicial</a
-              >
-            </li>
-            <li>
-              <a
-                href="../servicos-ofertados-proprietario/index.html"
-                class="nav-link"
-                >Serviços Ofertados</a
-              >
-            </li>
-            <li><a href="#" class="nav-link  active">Gestão de Ordem de Serviço</a></li>
-            <li>
-              <a href="../servico_realz_proprietario/index.html" class="nav-link"
-                >Serviços Realizados</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <div class="mobile-menu">
-      <nav>
-        <ul class="mobile-nav-links">
+      <div class="user-options">
+        <a href="../cadastro_Login/Cad_prop.html" class="user-option">
+          <i>👤</i>
+          <span>Login</span>
+        </a>
+        <a href="../Perfil_Proprietario/index.html" class="user-option">
+          <i>⚙️</i>
+          <span>Configurações</span>
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+  <nav class="main-nav">
+    <div class="nav-container">
+      <div class="nav-menu">
+        <ul class="nav-links">
           <li>
-            <a href="../homepage-proprietario/index.html" class="mobile-nav-link"
-              ><i>🏠</i>Página Inicial</a
-            >
+            <a href="../homepage-proprietario/index.html" class="nav-link">Página Inicial</a>
           </li>
           <li>
-            <a
-              href="../servicos-ofertados-proprietario/index.html"
-              class="mobile-nav-link"
-              ><i>🛠️</i>Serviços Ofertados</a
-            >
+            <a href="../servicos-ofertados-proprietario/index.html" class="nav-link">Serviços Ofertados</a>
           </li>
+          <li><a href="#" class="nav-link  active">Gestão de Ordem de Serviço</a></li>
           <li>
-            <a href="#" class="mobile-nav-link"
-              ><i>👨‍🔧</i>Gestão de Ordem de Serviço</a
-            >
-          </li>
-          <li>
-            <a
-              href="../servico_realz_proprietario/index.html"
-              class="mobile-nav-link"
-              ><i>🚗</i>Serviços Realizados</a
-            >
-          </li>
-          <div class="menu-divider"></div>
-          <li>
-            <a
-              href="../cadastro_Login/Cad_prop.html"
-              class="mobile-nav-link"
-              ><i>👤</i>Login</a
-            >
-          </li>
-          <li>
-            <a href="../Perfil_Proprietario/index.html" class="mobile-nav-link"
-              ><i>⚙️</i>Configurações</a
-            >
+            <a href="../servico_realz_proprietario/index.html" class="nav-link">Serviços Realizados</a>
           </li>
         </ul>
-      </nav>
+      </div>
     </div>
-    <div class="menu-overlay"></div>
-    <main>
-      <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gestão de OS</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
-        <script defer src="script.js"></script>
-      </head>
-      
-      <body>
-        <div class="container mt-5">
-      
-          <!-- 1. Serviços Realizados (Título Explicativo) -->
-          <div class="mb-3">
-            <label for="clientSelect" id="selecao-cliente" class="form-label">
-              <h3>Lista de Clientes</h3>
-            </label>
-            <select id="clientSelect" class="form-select"></select>
-          </div>
-      
-          <!-- 3. Lista de OS -->
-          <div id="osListContainer" class="d-none">
-            <h3>Ordens de Serviço</h3>
-            <ul id="osList" class="list-group mb-4"></ul>
-            <button id="addOSButton" class="btn btn-primary">Adicionar Nova OS</button>
-          </div>
-      
-          <!-- 4. Formulário de OS -->
-          <div id="osForm" class="card" class="d-none">
-            <h3 class="card-header" id="formTitle">Cadastrar OS</h3>
-            <form class="card-body">
-              <div class="mb-3">
-                <label for="osNumber" class="form-label">Número da OS</label>
-                <input type="number" placeholder="Digite o número da OS" id="osNumber" class="form-control" required disabled>
-              </div>
-              <div class="mb-3">
-                <label for="osDescription" class="form-label">Descrição</label>
-                <textarea id="osDescription" placeholder="Descrição da OS" class="form-control" rows="3" required disabled></textarea>
-              </div>
-              <div class="mb-3">
-                <label for="osStartDate" class="form-label">Data de Início</label>
-                <input type="date" id="osStartDate" class="form-control" required disabled>
-              </div>
-              <div class="mb-3">
-                <label for="osEndDate" class="form-label">Data Final</label>
-                <input type="date" id="osEndDate" class="form-control" disabled>
-              </div>
-              <div class="mb-3">
-                <label for="osServices" class="form-label">Serviços Realizados</label>
-                <textarea id="osServices" placeholder="Serviços realizados" class="form-control" rows="3" disabled></textarea>
-              </div>
-              <div class="mb-3">
-                <label for="osReplacedParts" class="form-label">Peças Substituídas</label>
-                <textarea id="osReplacedParts" placeholder="Digite as peças substituídas na OS" class="form-control" rows="3" disabled></textarea>
-              </div>
-              <div class="mb-3">
-                <label for="osRefurbishedParts" class="form-label">Peças Reformadas</label>
-                <textarea id="osRefurbishedParts" placeholder="Digite as peças reformadas na OS" class="form-control" rows="3" disabled></textarea>
-              </div>
-              <div class="mb-3">
-                <label for="osCost" class="form-label">Custo Total (R$)</label>
-                <input type="number" placeholder="Custo total da OS" id="osCost" class="form-control" required disabled>
-              </div>
-              <button type="button" id="editOSButton" class="btn btn-warning">Editar</button>
-              <button type="button" id="saveOSButton" class="btn btn-success d-none">Salvar</button>
-              <button type="button" id="deleteOSButton" class="btn btn-danger">Excluir</button>
-              <button type="button" id="cancelButton" class="btn btn-secondary">Cancelar</button>
-            </form>
-          </div>
-        </div>
-      </body>  
-    </main>
-    <footer>
-      <div class="contato">
-        <h4>Entre em contato</h4>
-        <div class="whatssap">
-          <img src="img/icons/whatsapp.svg" alt="" height="30px" />
-          <span>(xx) xxxxxxxxx</span>
-        </div>
-        <div class="telefone">
-          <img src="img/icons/telefone.svg" alt="" height="30px" />
-          <span>(xx) xxxxxxxxx</span>
-        </div>
-      </div>
-      <div class="footer-main">
-        <a href="index.html"
-          ><img src="img/logo.png" alt="" height="200px"
-        /></a>
-        <span>© Copyright 2024</span>
-      </div>
-      <div class="redes-sociais">
-        <h4>Redes Sociais</h4>
-        <div class="facebook">
-          <a href="">
-            <img src="img/icons/facebook.svg" alt="" height="30px" />
-            <span>Facebook</span>
-          </a>
-        </div>
-        <div class="instagram">
-          <a href=""
-            ><img src="img/icons/instagram.svg" alt="" height="30px" />
-            <span>Instagram</span></a
-          >
-        </div>
-      </div>
-    </footer>
+  </nav>
 
-    <script src="header.js"></script>
-  </body>
+  <div class="mobile-menu">
+    <nav>
+      <ul class="mobile-nav-links">
+        <li>
+          <a href="../homepage-proprietario/index.html" class="mobile-nav-link"><i>🏠</i>Página Inicial</a>
+        </li>
+        <li>
+          <a href="../servicos-ofertados-proprietario/index.html" class="mobile-nav-link"><i>🛠️</i>Serviços
+            Ofertados</a>
+        </li>
+        <li>
+          <a href="#" class="mobile-nav-link"><i>👨‍🔧</i>Gestão de Ordem de Serviço</a>
+        </li>
+        <li>
+          <a href="../servico_realz_proprietario/index.html" class="mobile-nav-link"><i>🚗</i>Serviços Realizados</a>
+        </li>
+        <div class="menu-divider"></div>
+        <li>
+          <a href="../cadastro_Login/Cad_prop.html" class="mobile-nav-link"><i>👤</i>Login</a>
+        </li>
+        <li>
+          <a href="../Perfil_Proprietario/index.html" class="mobile-nav-link"><i>⚙️</i>Configurações</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <div class="container mt-5">
+
+      <!-- 1. Serviços Realizados (Título Explicativo) -->
+      <div class="mb-3">
+        <label for="clientSelect" id="selecao-cliente" class="form-label">
+          <h3>Lista de Clientes</h3>
+        </label>
+        <select id="clientSelect" class="form-select"></select>
+      </div>
+
+      <!-- 3. Lista de OS -->
+      <div id="osListContainer" class="d-none">
+        <h3>Ordens de Serviço</h3>
+        <ul id="osList" class="list-group mb-4"></ul>
+        <button id="addOSButton" class="btn btn-primary">Adicionar Nova OS</button>
+      </div>
+
+      <!-- 4. Formulário de OS -->
+      <div id="osForm" class="card" class="d-none">
+        <h3 class="card-header" id="formTitle">Cadastrar OS</h3>
+        <form class="card-body">
+          <div class="mb-3">
+            <label for="osNumber" class="form-label">Número da OS</label>
+            <input type="number" placeholder="Digite o número da OS" id="osNumber" class="form-control" required
+              disabled>
+          </div>
+          <div class="mb-3">
+            <label for="osDescription" class="form-label">Descrição</label>
+            <textarea id="osDescription" placeholder="Descrição da OS" class="form-control" rows="3" required
+              disabled></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="osStartDate" class="form-label">Data de Início</label>
+            <input type="date" id="osStartDate" class="form-control" required disabled>
+          </div>
+          <div class="mb-3">
+            <label for="osEndDate" class="form-label">Data Final</label>
+            <input type="date" id="osEndDate" class="form-control" disabled>
+          </div>
+          <div class="mb-3">
+            <label for="osServices" class="form-label">Serviços Realizados</label>
+            <textarea id="osServices" placeholder="Serviços realizados" class="form-control" rows="3"
+              disabled></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="osReplacedParts" class="form-label">Peças Substituídas</label>
+            <textarea id="osReplacedParts" placeholder="Digite as peças substituídas na OS" class="form-control"
+              rows="3" disabled></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="osRefurbishedParts" class="form-label">Peças Reformadas</label>
+            <textarea id="osRefurbishedParts" placeholder="Digite as peças reformadas na OS" class="form-control"
+              rows="3" disabled></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="osCost" class="form-label">Custo Total (R$)</label>
+            <input type="number" placeholder="Custo total da OS" id="osCost" class="form-control" required disabled>
+          </div>
+          <button type="button" id="editOSButton" class="btn btn-warning">Editar</button>
+          <button type="button" id="saveOSButton" class="btn btn-success d-none">Salvar</button>
+          <button type="button" id="deleteOSButton" class="btn btn-danger">Excluir</button>
+          <button type="button" id="cancelButton" class="btn btn-secondary">Cancelar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="contato">
+      <h4>Entre em contato</h4>
+      <div class="whatssap">
+        <img src="img/icons/whatsapp.svg" alt="" height="30px" />
+        <span>(xx) xxxxxxxxx</span>
+      </div>
+      <div class="telefone">
+        <img src="img/icons/telefone.svg" alt="" height="30px" />
+        <span>(xx) xxxxxxxxx</span>
+      </div>
+    </div>
+    <div class="footer-main">
+      <a href="index.html"><img src="img/logo.png" alt="" height="200px" /></a>
+      <span>© Copyright 2024</span>
+    </div>
+    <div class="redes-sociais">
+      <h4>Redes Sociais</h4>
+      <div class="facebook">
+        <a href="">
+          <img src="img/icons/facebook.svg" alt="" height="30px" />
+          <span>Facebook</span>
+        </a>
+      </div>
+      <div class="instagram">
+        <a href=""><img src="img/icons/instagram.svg" alt="" height="30px" />
+          <span>Instagram</span></a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="header.js"></script>
+</body>
+
 </html>

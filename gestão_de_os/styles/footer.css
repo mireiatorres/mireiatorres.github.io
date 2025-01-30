@@ -1,3 +1,4 @@
+/* footer.css */
 a {
   text-decoration: none;
 }
@@ -12,6 +13,7 @@ footer {
   padding-bottom: 10px;
   max-width: 100%;
   overflow: hidden;
+  margin-top: auto;
 }
 
 footer h4 {
@@ -30,13 +32,13 @@ footer span {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
 
-  & .whatssap,
-  .telefone {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
+.contato .whatssap,
+.contato .telefone {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .redes-sociais {
@@ -45,13 +47,13 @@ footer span {
   align-items: center;
   justify-items: center;
   gap: 10px;
+}
 
-  & .facebook a,
-  .instagram a {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
+.redes-sociais .facebook a,
+.redes-sociais .instagram a {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .footer-main {
@@ -65,8 +67,6 @@ footer span {
   footer {
     grid-template-columns: auto auto;
     padding-block: 20px 30px;
-    /* position: absolute;
-    bottom: 0; */
   }
 
   footer h4 {
@@ -78,26 +78,24 @@ footer span {
     display: none;
   }
 
-  .redes-sociais {
-    & img {
-      height: 20px;
-    }
+  .redes-sociais img {
+    height: 20px;
+  }
 
-    & span {
-      font-size: 18px;
-    }
+  .redes-sociais span {
+    font-size: 18px;
   }
 
   .contato {
     border-right: 1px solid black;
+  }
 
-    & img {
-      height: 18px;
-    }
+  .contato img {
+    height: 18px;
+  }
 
-    & span {
-      font-size: 18px;
-    }
+  .contato span {
+    font-size: 18px;
   }
 }
 
@@ -107,33 +105,31 @@ footer span {
     flex-direction: column;
     align-items: center;
     justify-items: center;
+  }
 
-    .contato {
-      border-right: none;
-      border-bottom: 1px solid black;
-      padding-bottom: 30px;
+  .contato {
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+  }
 
-      & img {
-        height: 18px;
-      }
+  .contato img {
+    height: 18px;
+  }
 
-      & span {
-        font-size: 16px;
-      }
-    }
+  .contato span {
+    font-size: 16px;
   }
 
   footer h4 {
     font-size: 18px;
   }
 
-  .redes-sociais {
-    & img {
-      height: 18px;
-    }
+  .redes-sociais img {
+    height: 18px;
+  }
 
-    & span {
-      font-size: 16px;
-    }
+  .redes-sociais span {
+    font-size: 16px;
   }
 }
